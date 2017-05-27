@@ -3,9 +3,10 @@ table.centrada {
 	margin: 0 auto; /*para centrar en navegadores distintos a Internet Explorer */
 	vertical-align: center;
 	border: 1px solid #000;
-	width: 80%;
+	width: 90%;
 	height: 90%;
 }
+
 div.centrado {
 	/* para centrar tablas en Internet Explorer envolverlas con un div de esta clase */
 	text-align: center;
@@ -15,18 +16,27 @@ iframe.maximizado {
 	width: 100%;
 	height: 100%;
 }
-ul {
+ul.menuSuperior {
     /* list-style-type: none;  */
     margin: 0;
     padding: 0; 
     overflow: hidden; 
     background-color: #636867;
+    height: 100%
 }
 li {
     float: left;
 }
-li a {
+li.menuSuperior a {
     display: block; 
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+}
+li a.menuSuperior {
+    display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
