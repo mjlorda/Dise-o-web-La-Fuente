@@ -1,3 +1,6 @@
+div.principal {
+
+}
 table.centrada {
 	text-align: center;
 	margin: 0 auto; /*para centrar en navegadores distintos a Internet Explorer */
@@ -5,8 +8,23 @@ table.centrada {
 	border: 1px solid #000;
 	width: 90%;
 	height: 90%;
-}
 
+}
+div.background {
+    background-image: url("../img/linux_circuit_board_penguin_avatar_by_duradcell-d6gzwwu.png");
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
 div.centrado {
 	/* para centrar tablas en Internet Explorer envolverlas con un div de esta clase */
 	text-align: center;
